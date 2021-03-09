@@ -1,0 +1,100 @@
+#svg-map path {
+  fill: rgb(255,160,122)
+}
+
+#svg-map text {
+  fill: #fff;
+  font: 12px Arial-BoldMT, sans-serif;
+  cursor: pointer
+}
+
+#svg-map a {
+  text-decoration: none
+}
+
+#svg-map a:hover {
+  cursor: pointer;
+  text-decoration: none
+}
+
+#svg-map a:hover path {
+  fill: rgb(139,0,0) !important
+}
+
+#svg-map .circle {
+  fill: rgb(178,34,34)
+}
+
+#svg-map a:hover .circle {
+  fill: rgb(128,0,0)!important;
+  cursor: pointer
+}
+
+.mapa-br {
+  width: 100%;
+}
+
+/*MEU LAYOUT*/
+.ant-layout-sider { 
+  background: #000 !important;
+}
+
+.ant-menu-dark, .ant-menu-dark .ant-menu-sub {
+        color: rgba(0, 0, 0, 0.65) !important;
+    background: #000 !important;
+}
+
+.ant-layout-sider-trigger {
+  background: rgba(139,0,0, 0.45) !important
+}
+
+.ant-layout-header {
+    background: rgba(0,0,0, 0.45) !important
+}
+
+.ant-layout {
+   background: rgba(0,0,0, 0.45) !important
+}
+
+.state-info {
+  background: #000;
+  padding: 2% 2% 2% 2%;
+  border-radius: 2%;
+}
+
+.title {
+  color: #fff;
+  padding-top: 0.5%;
+  padding-left: 2%;
+}
+
+.text {
+  color: #fff;
+  padding-top: 0.5%;
+  padding-left: 2%;
+  font-size: 18px;
+}
+
+.text-fonte {
+  color: #fff;
+   padding-top: 0.5%;
+  padding-left: 2%;
+  font-size: 15px;
+}
+
+@media (max-width:414px) 
+{
+  .title {
+    font-size: 30px;
+    padding-top: 3%;  
+  }
+}
+
+@media (max-width:367px) 
+{
+  .title {
+    font-size: 20px;
+    padding-top: 3%;  
+  }
+}
+
